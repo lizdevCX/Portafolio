@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web - Paginas Web UTP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- header y nav -->
+    <header class="header">
+        <nav class="navbar" role="navigation" aria-label="navegación principal">
+            <div class="navbar-brand">
+                <a class="navbar-item logo" href="#inicio">Lizeth<span>.dev</span></a>
+            </div>
+            <div class="navbar-menu is-active">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#inicio">Inicio</a>
+                    <a class="navbar-item" href="#sobre-mi">Sobre mí</a>
+                    <a class="navbar-item" href="#servicios">Servicios</a>
+                    <a class="navbar-item" href="#contacto">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- secciones y sidebar a la derecha -->
+    <div class="container main">
+        <div class="columns">
+
+            <main class="column is-8">
+
+                <!-- presentacion -->
+                <section id="inicio" class="box blue">
+                    <div class="columns is-vcentered">
+                        <div class="column is-7">
+                            <span class="tag is-info is-light is-medium is-rounded">Software Developer</span>
+                            <h1 class="title is-2 mt-4">Desarrolladora Full Stack</h1>
+                            <p class="subtitle is-5 mt-3">Creando experiencias digitales eficientes y escalables para la
+                                nueva era tecnológica.</p>
+                            <p class="desc">Diseño y construcción de soluciones web orientadas al rendimiento,
+                                combinando interfaces limpias con arquitecturas de backend sólidas y seguras.</p>
+                            <div class="buttons mt-5">
+                                <a href="#servicios" class="button is-primary is-medium is-rounded">Ver Servicios</a>
+                                <a href="#contacto" class="button is-dark is-medium is-rounded">Ponerse en contacto</a>
+                            </div>
+                        </div>
+                        <div class="column is-5">
+                            <figure class="image">
+                                <img src="img/computador.png" alt="Imagen de computador">
+                            </figure>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- sobre mi -->
+                <section id="sobre-mi" class="box green">
+                    <h2 class="title is-2">Sobre mí</h2>
+                    <p class="desc">Soy estudiante de la Tecnologia en Desarrollo de Software en la Universidad
+                        Tecnológica de Pereira (UTP). Me apasiona resolver problemas complejos a través de software
+                        estructurado y mantenible.</p>
+                    <p class="desc">Mi enfoque abarca todo el ciclo de vida del desarrollo: desde el
+                        análisis de requerimientos y la maquetación accesible hasta la implementación de lógica del
+                        servidor y gestión de bases de datos relacionales.</p>
+
+                    <div class="columns mt-4">
+                        <div class="column is-6">
+                            <div class="card">
+                                <div class="card-content">
+                                    <h3 class="title is-4">Filosofía</h3>
+                                    <p class="desc">Código limpio, modular y estandarizado bajo buenas prácticas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-6">
+                            <div class="card">
+                                <div class="card-content">
+                                    <h3 class="title is-4">Rendimiento</h3>
+                                    <p class="desc">Optimización constante de recursos y tiempos de carga.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- servicios -->
+                <section id="servicios" class="box purple">
+                    <h2 class="title is-2">Servicios que ofrezco</h2>
+                    <div class="columns is-multiline">
+                        <div class="column is-6">
+                            <article class="card">
+                                <div class="card-content">
+                                    <span class="tag is-primary is-light is-medium">01</span>
+                                    <h3 class="title is-4 mt-3">Páginas de Presentación</h3>
+                                    <p class="desc">Sitios institucionales y corporativos modernos, perfectamente
+                                        adaptados a dispositivos móviles y optimizados para destacar tu marca.</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="column is-6">
+                            <article class="card">
+                                <div class="card-content">
+                                    <span class="tag is-primary is-light is-medium">02</span>
+                                    <h3 class="title is-4 mt-3">Portafolios Personales</h3>
+                                    <p class="desc">Espacios digitales a la medida para mostrar tu trayectoria
+                                        académica, proyectos profesionales o portafolio creativo con gran impacto.</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="column is-6">
+                            <article class="card">
+                                <div class="card-content">
+                                    <span class="tag is-primary is-light is-medium">03</span>
+                                    <h3 class="title is-4 mt-3">Backend & Bases de Datos</h3>
+                                    <p class="desc">Construcción de APIs robustas con Node.js y Express, integradas
+                                        con esquemas relacionales seguros en PostgreSQL.</p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="column is-6">
+                            <article class="card">
+                                <div class="card-content">
+                                    <span class="tag is-primary is-light is-medium">04</span>
+                                    <h3 class="title is-4 mt-3">Mejoras de Sitios</h3>
+                                    <p class="desc">Auditoría, corrección de errores, refactorización de código y
+                                        modernización de interfaces web ya existentes.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+            </main>
+
+            <!-- sidebar a la derecha -->
+            <aside class="column is-4" id="contacto">
+
+                <div class="box amber has-text-centered">
+                    <figure class="image dev-img">
+                        <img src="img/programadora.png" alt="Ilustración técnica o de desarrollo">
+                    </figure>
+                    <h3 class="title is-3">Lizeth</h3>
+                    <p class="role">Desarrolladora Web</p>
+                    <span class="tag is-success is-light is-medium is-rounded">Disponible para proyectos</span>
+                </div>
+
+                <div class="box">
+                    <h3 class="title is-4">Tecnologías & Herramientas</h3>
+                    <div class="tags">
+                        <span class="tag is-info is-light is-medium">HTML5 & CSS3 Avanzado</span>
+                        <span class="tag is-info is-light is-medium">JavaScript Moderno (ES6+)</span>
+                        <span class="tag is-info is-light is-medium">Node.js & Express Framework</span>
+                        <span class="tag is-info is-light is-medium">PostgreSQL & SQL</span>
+                        <span class="tag is-info is-light is-medium">Git & GitHub Workflow</span>
+                    </div>
+                </div>
+
+                <div class="box blue">
+                    <h3 class="title is-4">Contacto Directo</h3>
+                    <p class="text"><strong>Correo:</strong><br> lizeth2026@gmail.com</p>
+                    <p class="text"><strong>Teléfono:</strong><br> +57 313 786 9242</p>
+                    <p class="text"><strong>Universidad:</strong><br> UTP - Pereira, Colombia</p>
+                </div>
+
+            </aside>
+        </div>
+    </div>
+
+    <footer class="footer has-text-centered">
+        <p>&copy; 2026 Lizeth. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

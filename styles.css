@@ -1,0 +1,109 @@
+/* colores y tipografia */
+:root,
+[data-theme="dark"] {
+    --bulma-primary-h: 217deg;   /* azul #3b82f6 */
+    --bulma-primary-s: 91%;
+    --bulma-primary-l: 60%;
+
+    --bg-main: #05070a;
+    --bg-surface: #0b0f17;
+    --bg-card: #111826;
+    --border-color: #22304a;
+    --text-muted: #e2e8f0;
+    --accent-blue: #3b82f6;
+    --accent-emerald: #10b981;
+    --accent-purple: #8b5cf6;
+    --accent-amber: #f59e0b;
+
+    --bulma-box-background-color: var(--bg-surface);
+    --bulma-card-background-color: var(--bg-card);
+}
+
+body {
+    background-color: var(--bg-main);
+}
+
+/* navbar */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid var(--border-color);
+    background-color: rgba(11, 15, 23, 0.97);
+}
+
+.header .navbar,
+.header .navbar-menu,
+.header .navbar-item {
+    background-color: transparent;
+}
+
+.header .logo {
+    gap: 0;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.logo span {
+    color: var(--accent-blue);
+}
+
+/* layout y cards */
+.main {
+    padding: 2rem 1rem;
+}
+
+.box {
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* borde de color arriba de cada card */
+.blue   { border-top: 8px solid var(--accent-blue); }
+.green  { border-top: 8px solid var(--accent-emerald); }
+.purple { border-top: 8px solid var(--accent-purple); }
+.amber  { border-top: 8px solid var(--accent-amber); }
+
+/* color de parrafos */
+.desc,
+.text,
+.role {
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.role {
+    font-weight: 600;
+}
+
+/* cards */
+.card {
+    height: 100%;
+    border: 2px solid var(--border-color);
+    border-radius: 16px;
+}
+
+/* imagenes */
+.dev-img {
+    width: 180px;
+    margin: 0 auto 1rem auto;
+}
+
+.image img {
+    object-fit: contain;
+}
+
+/* recorta el fondo cuadriculado de la foto de perfil */
+.dev-img img {
+    border-radius: 50%;
+}
+
+/* footer */
+.footer {
+    background-color: var(--bg-surface);
+    border-top: 2px solid var(--border-color);
+    color: var(--text-muted);
+}
